@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Novedades Mayer</title>
+  <link rel="icon" type="image/png" href="public/Favicon.png">
   <link rel="stylesheet" href="public/css/styles.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="public/css/inicio.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -37,20 +39,6 @@
     </nav>
     <div class="mobile-menu">
       <ul>
-        <li>
-          <div class="menu-icons-mobile">
-            <a href="#buscar"><i class="fas fa-search"></i></a>
-            <a href="#carrito"><i class="fas fa-shopping-cart"></i></a>
-            <a href="#perfil"><i class="fas fa-user"></i></a>
-          </div>
-        </li>
-        <li>
-          <div class="social-icons-mobile">
-            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://wa.me" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
-          </div>
-        </li>
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#productos">Productos</a></li>
         <li><a href="#nosotros">Nosotros</a></li>
@@ -58,6 +46,18 @@
       </ul>
     </div>
   </header>
+
+  <main>
+    <section id="inicio"></section>
+  </main>
+
+  <!-- Modal para imágenes -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+  <script src="public/js/inicio.js"></script>
   <script src="public/js/script.js"></script>
 </body>
 </html>
